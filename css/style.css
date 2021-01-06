@@ -1,0 +1,917 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align:bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 50px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+  margin-left: 200px
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
+}
+
+select {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: forestgreen;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+#index h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Bitter', serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.btn a {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+}
+
+#index footer {
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#index {
+  background-image: url(../images/amethyst.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about {
+  background-image: url(../images/fluorite.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Bitter', serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#about .profile-txt {
+  width: 540px;
+  float: left;
+}
+
+#about .profile-txt span {
+  font-weight: bold;
+}
+
+#about .profile-image {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-block {
+    flex: 1 1 auto;
+}
+
+.hamburger {
+    flex: 0 0 32px;
+    align-self: center;
+    margin-left: 16px;
+    margin-top: 55px;
+    float: right;
+}
+
+/* ドロワーナビゲーションのスタイル */
+#nav {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 270px;
+    height: 100%;
+    font-family: 'Bitter', serif;
+}
+
+#nav ul a {
+    color: #3c3c3c;
+    font-weight: bold;
+}
+
+.show {
+    transform: translate3d(-300px, 0, 0);
+}
+
+#wrapper, #nav {
+    transition: transform 1s;
+}
+
+.hamburger:hover {
+    opacity: 0.5;
+}
+
+#about .career th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+
+#about .career td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#portfolio {
+  background-image: url(../images/citrine.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#portfolio #wrap {
+  max-width: 100%;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter', serif;
+}
+
+a img:hover {
+  opacity: 0.8;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
+}
+
+#photograph {
+  background-image: url(../images/rock-crystal.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#photograph .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#photograph .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#video {
+  background-image: url(../images/celestite.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact {
+  background-image: url(../images/rose-quarts.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact .access table {
+  float: left;
+}
+
+#contact .access th,
+#contact .access td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5;
+}
+
+#contact .access td {
+  padding-left: 30px;
+}
+
+#contact .access iframe {
+  width: 460px;
+  float: right;
+}
+
+#contact .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd {
+  padding: 10px 0;
+}
+
+#contact .form .name {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .email {
+  width: 300px;
+  height: 30px;
+}
+
+#contact .form .tel {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .type {
+  width: 180px;
+  height: 30px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+#contact .form .message {
+  width: 660px;
+  height: 150px;
+}
+
+#contact .form button {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  width: 120px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+  margin-left: 165px;
+}
+
+#contact .form button:hover {
+  background-color: #ffffff;
+  color: #009cd3;
+  cursor: pointer;
+}
+
+#contact .form .required:after {
+  content: "*";
+  color: #ff0000;
+}
+
+#contact .form .attention {
+  margin: 20px 0 0 165px;
+}
+
+@media (min-width:601px) and (max-width:1200px) {
+  /* 画面サイズが600px以下の場合に適用 */
+  
+  body {
+   width: auto;
+   height: auto;
+   font-size: 3.5vw;
+  }
+  
+  h1 {
+    font-size: 7.2vw;
+    float: none;
+  }
+
+  h2 {
+    font-size: 6vw;
+    float: none;
+  }
+    
+  #form {
+    width: 20vw;
+    height: 15vw;
+    margin-left: 5vw;
+  }
+    
+  #index h1 {
+    font-size: 20vw;
+  }
+
+  #index p {
+    font-size: 3vw;    
+  }
+    
+  #about p {
+    margin-left: 3vw;
+    width: 95vw;
+    font-size: 3vw;    
+  }
+    
+  #about .profile-txt {
+    float: none;
+  }
+    
+  #about .profile-image {
+    float: none;
+    padding-left: 37px;
+    padding-top: 20px;
+  }
+    
+  #about .career th {
+    width: 30vw;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+  }
+
+  #about .career td {
+    margin: 5vw;
+    padding: 3vw;
+    width: 63vw;
+    border: 1px solid #cccccc;
+  }
+    
+  #photograph .main img {
+    width: 26vw;
+    height: 20vw;
+  }
+    
+  #video .main iframe {
+    width: 90vw;
+    height: 60vw;
+  }
+    
+  #contact p {
+    width: 100vw
+  }
+    
+  #contact .access-clearfix {
+    width: 100vw;
+  }
+    
+  #contact .access-clearfix th {
+    width: 30vw;
+  }
+    
+  #contact .access-clearfix iframe {
+    width: 100vw;
+  }
+    
+  #contact .form {
+    width: 100vw;
+  }
+
+  #contact .form dl dt {
+    width: 50vw;
+    float: left;
+  }
+
+  #contact .form dl dd {
+    padding: 2vw;
+  }
+
+  #contact .form .name {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .email {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .tel {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .type {
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+  }
+
+  #contact .form .message {
+    width: 70vw;
+    height: 30vw;
+  }
+
+  #contact .form button {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    margin-left: 33vw;
+  } 
+
+  #contact .form .required:after {
+    content: "*";
+    color: #ff0000;
+  }
+
+  #contact .form .attention {
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+  }
+  
+  header {
+    width: auto;
+    margin: 0 5%;
+    margin-bottom: 13vw;
+  }
+  
+  .logo {
+    float: none;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .global-nav {
+    float: none;
+    margin-left: 16vw;
+    margin-top: 10vw;
+    text-align: left;
+  }
+  
+  .global-nav li {
+    display: inline;
+    float: none;
+    margin: 0;
+    margin-left: 5vw;
+  } 
+    
+  #about .global-nav li {
+    margin-left: 7vw;
+  }
+    
+  #contact .global-nav li {
+    margin-left: 7vw;
+  }
+    
+  .hamburger {
+    margin-top: 5vw;
+  }
+  
+  #wrap {
+    margin-top: 40px;
+    padding: 35px 0 0;
+  }
+  
+  .content {
+    width: 100%;
+  }
+    
+  .container {
+    float: left;
+  }
+  
+  .main {
+    float: none;
+    width: auto;
+    margin: 0 5%;
+  }
+  
+  h2 img {
+    max-width: 100%;
+  }
+    
+  #portforio {
+    width: 100vw;
+    background-image: url("../images/citrine-sp.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+  
+  .sidebar {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 30px 10% 10px;
+    background-color: #f7f6f4;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+  /* 画面サイズが400px以下の場合に適用 */
+  
+  body {
+   width: auto;
+   height: auto;
+   font-size: 3.5vw;
+  }
+  
+  h1 {
+    font-size: 7.2vw;
+    float: none;
+  }
+
+  h2 {
+    font-size: 6vw;
+    float: none;
+  }
+    
+  #form {
+    width: 20vw;
+    height: 15vw;
+    margin-left: 5vw;
+  }
+    
+  #index h1 {
+    font-size: 21vw;
+  }
+
+  #index p {
+    font-size: 3vw;    
+  }
+    
+  #index .btn {
+    margin-left: 5vw;
+  }
+    
+  #about p {
+    font-size: 2vw;
+    margin-left: 2vw;
+  }
+    
+  #about .profile-txt {
+    float: none;
+  }
+    
+  #about .profile-image {
+    float: none;
+    padding-left: 37px;
+    padding-top: 20px;
+  }
+    
+  #about .career th {
+    width: 30vw;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+  }
+
+  #about .career td {
+    margin: 5vw;
+    padding: 3vw;
+    width: 63vw;
+    border: 1px solid #cccccc;
+  }
+    
+  #photograph .main img {
+    width: 26vw;
+    height: 20vw;
+  }
+    
+  #video .main iframe {
+    width: 90vw;
+    height: 60vw;
+  }
+    
+  #contact p {
+    width: 100vw;
+  }
+    
+  #contact .access-clearfix {
+    width: 100vw;
+  }
+    
+  #contact .access-clearfix th {
+    width: 30vw;
+  }
+    
+  #contact .access-clearfix iframe {
+    width: 100vw;
+  }
+    
+  #contact .form {
+    width: 74vw;
+  }
+
+  #contact .form dl dt {
+    width: 50vw;
+    float: left;
+  }
+
+  #contact .form dl dd {
+    padding: 2vw;
+  }
+
+  #contact .form .name {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .email {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .tel {
+    width: 50vw;
+    height: 8vw;
+  }
+
+  #contact .form .type {
+    width: 50vw;
+    height: 7vw;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+  }
+
+  #contact .form .message {
+    width: 70vw;
+    height: 30vw;
+  }
+
+  #contact .form button {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    margin-left: 20vw;
+  } 
+
+  #contact .form .required:after {
+    content: "*";
+    color: #ff0000;
+  }
+
+  #contact .form .attention {
+    margin-top: 5vw;
+    margin-left: 0;
+    padding: 0;
+    font-size: 2vw;
+  }
+  
+  header {
+    width: auto;
+    margin: 0 5%;
+    margin-bottom: 16vw;
+  }
+    
+  footer {
+    width: auto;
+    padding-top: 15vw;
+  }
+  
+  .logo {
+    float: none;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .global-nav {
+    float: none;
+    margin-left: 3vw;
+    margin-top: 40px;
+  }
+  
+  .global-nav li {
+    font-size: 5vw;
+    display: inline;
+    float: none;
+    margin: 0 8px;
+  }
+    
+  .hamburger {
+    margin-top: 5vw;
+  }
+  
+  #wrap {
+    margin-top: 40px;
+    padding: 35px 0 0;
+  }
+  
+  .content {
+    width: 100%;
+  }
+    
+  .container {
+    float: left;
+  }
+  
+  .main {
+    float: none;
+    width: auto;
+    margin: 0 5%;
+  }
+  
+  h2 img {
+    max-width: 100%;
+  }
+    
+  #portfolio {
+    background-image: url(../images/citrine-sp2.jpg);
+  }
+    
+  #about {
+    background-image: url(../images/fluorite-sp2.jpg);
+  }
+    
+  #contact {
+    background-image: url(../images/rose-quarts-sp.jpg);
+  }
+    
+  #video {
+    background-image: url(../images/celestite-sp.jpg);
+  }
+  
+  .sidebar {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 30px 10% 10px;
+    background-color: #f7f6f4;
+  }
+    
+    #contact .radio {
+        font-size: 2vw;
+    }
+  
+}
